@@ -1,0 +1,28 @@
+{
+  "name": "vehicle-dynamics-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vehicle Dynamics Lab - browser-based vehicle engineering and driving game",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --force",
+    "test:physics": "tsx src/physics/validation.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.90.0",
+    "tsx": "^4.19.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}

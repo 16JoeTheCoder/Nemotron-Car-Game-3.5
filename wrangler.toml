@@ -1,0 +1,6 @@
+name = "nemotron-car-game-3-5"
+compatibility_date = "2026-11-07"
+
+[pages]
+build_output = "dist"
+include = ["dist/**"]
