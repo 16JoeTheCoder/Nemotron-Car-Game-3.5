@@ -3,4 +3,6 @@ compatibility_date = "2026-11-07"
 
 [build]
 command = "npm run build"
-publish = "dist"
+
+[pages]
+pages_build_output_dir = "dist"
