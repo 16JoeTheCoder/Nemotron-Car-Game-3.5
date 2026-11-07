@@ -3,4 +3,4 @@ compatibility_date = "2026-11-07"
 
 [build]
 command = "npm run build"
-directory = "dist"
+publish = "dist"
